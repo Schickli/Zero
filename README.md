@@ -207,8 +207,8 @@ GITHUB_CLIENT_SECRET=   # Optional: For GitHub authentication
 DATABASE_URL=           # Required: PostgreSQL connection string for backend connection
 
 # Redis
-REDIS_URL=              # Redis URL for caching (http://localhost:8079 for local dev)
-REDIS_TOKEN=            # Redis token (upstash-local-token for local dev)
+KV_REST_API_URL=              # Redis URL for caching (http://localhost:8079 for local dev)
+KV_REST_API_TOKEN=            # Redis token (upstash-local-token for local dev)
 ```
 
 To be able to run `bun db:push` and push the schemas to the database you also have to add a `.env` file to the `packages/db` folder (so `packages/db/.env`) with the following content:

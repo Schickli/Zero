@@ -94,7 +94,7 @@ export default function GeneralPage() {
                     <Select onValueChange={field.onChange} defaultValue={field.value}>
                       <FormControl>
                         <SelectTrigger className="w-36">
-                          <Globe className="mr-2 h-4 w-4" />
+                          <Globe className="mr-2 h-4 w-4 min-w-4" />
                           <SelectValue placeholder="Select a language" />
                         </SelectTrigger>
                       </FormControl>
@@ -119,7 +119,7 @@ export default function GeneralPage() {
                     <Select onValueChange={field.onChange} defaultValue={field.value}>
                       <FormControl>
                         <SelectTrigger className="w-36">
-                          <Clock className="mr-2 h-4 w-4" />
+                          <Clock className="mr-2 h-4 w-4 min-w-4" />
                           <SelectValue placeholder="Select a timezone" />
                         </SelectTrigger>
                       </FormControl>
